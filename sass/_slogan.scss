@@ -1,0 +1,65 @@
+
+
+.slogan{
+    position: relative;
+    height: 500px;
+    background: url("img/slogan/slogan_1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        background: rgba(0,0,0,0.8);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.5;
+        z-index: 100;
+    }
+    .slogan-title{
+        position: relative;
+        font-size: 38px;
+        color: #feb518;
+        font-family: 'Dancing Script', cursive;
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .slogan-title-small{
+        position: relative; 
+        color: #ffffff;
+        font-size: 36px;
+        margin-top: -10px;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+    .title{
+        position: absolute;
+        top:40%;
+        left: 20%;
+        z-index: 102;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

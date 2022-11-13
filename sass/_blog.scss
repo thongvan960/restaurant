@@ -1,0 +1,91 @@
+.blog{
+    margin-top: 100px;
+    .blog-title{
+        text-align: center;
+        margin-bottom: 50px;
+        h2{
+            font-size: 38px;
+            font-weight: 700;
+            color: #feb518;
+            line-height: 1.4em;
+            font-family: 'Dancing Script', cursive;
+        }
+        h4{
+            font-family: 'Roboto Slab', serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            line-height: 1.4em;
+        }
+    }
+    .news-block{
+        position: relative;
+        margin-bottom: 55px;
+        .blog-items{
+            .img-box{
+                img{
+                    position: relative;
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .content-box{
+                position: relative;
+                padding-top: 10px;
+                h3{
+                    position: relative;
+                    color: #333333;
+                    font-size: 18px;
+                    margin: 12px 0px 4px;
+                    text-transform: capitalize;
+                    font-family: 'Roboto Slab', serif;
+                }
+                h4{
+                    position: relative;
+                    color: #777777;
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    .yellow{
+                        color: #feb518;
+                    }
+                }
+                p{
+                    position: relative;
+                    color: #777777;
+                    font-size: 14px;
+                    margin-bottom: 18px;
+                }
+                .lower-box{
+                    position: relative;
+                    padding-top: 15px;
+                    margin-top: 22px;
+                    border-top: 1px dashed #d6d6d6;
+                    justify-content: space-between;
+                    display: flex;
+                    .docthem{
+                        a{
+                            position: relative;
+                            color: #333333;
+                            font-size: 14px;
+                            font-weight: 700;
+                            text-decoration: none;
+                            &:hover{
+                                color: #feb518;
+                            }
+                        }
+                    }
+                    .likes{
+                       a{
+                        position: relative;
+                        color: #777777;
+                        font-size: 14px;
+                        text-decoration: none;
+                       }
+                    }
+                }
+            }
+        }
+    }
+}

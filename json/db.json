@@ -1,0 +1,44 @@
+{
+  "userLogin": [
+    {
+      "id": 1,
+      "userName": "admin",
+      "passWord": "admin123"
+    },
+    {
+      "id": 2,
+      "userName": "admin1",
+      "passWord": "admin123"
+    },
+    {
+      "id": 3,
+      "userName": "admin2",
+      "passWord": "admin123"
+    },
+    {
+      "id": 4,
+      "userName": "admin3",
+      "passWord": "admin123"
+    },
+    {
+      "id": 5,
+      "userName": "admin4",
+      "passWord": "admin123"
+    },
+    {
+      "userName": "ThaiNgan",
+      "passWord": "123456",
+      "id": 6
+    },
+    {
+      "userName": "ThaiNgan",
+      "passWord": "123456",
+      "id": 7
+    },
+    {
+      "firstname": "John",
+      "lastname": "Snow",
+      "id": 8
+    }
+  ]
+}

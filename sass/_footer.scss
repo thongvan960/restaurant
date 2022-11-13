@@ -1,0 +1,175 @@
+.footer{
+    position: relative;
+    padding: 100px 0;
+    background: #151515;
+    overflow: hidden;
+    .footer-column{
+        .footer-title{
+            position: relative;
+            font-size: 14px;
+            line-height: 28px;
+            color: #cccccc;
+            margin-bottom: 30px;
+            &:after{
+                position: absolute;
+                content: "";
+                width: 30px;
+                height: 1px;
+                left: 0;
+                bottom: 0;
+                background: #feb518;
+            }
+
+        }
+        .text{
+            font-size: 14px;
+            color: #888;
+            line-height: 1.7rem;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            &:hover{
+                color: #ffff;
+            }
+        }
+        ul{
+            li{
+                display: flex;
+                font-size: 14px;
+                color: #888;
+                padding: 0;
+                cursor: pointer;
+                &:hover{
+                    color: #ffff;
+                }
+                span{
+                    margin: 0;
+                    margin-right: 15px;
+                }
+                &:nth-child(1){
+                    span{
+                        color: #db0202;
+                    }
+                }
+                &:nth-child(2){
+                    span{
+                        color: green;
+                    }
+                }
+                &:nth-child(3){
+                    span{
+                        color: #0d38e2;
+                    }
+                }
+
+            }
+        }
+        .links-list{
+          
+            li{
+                margin-bottom: 20px;
+                cursor: pointer;
+                &:hover{
+                    color: #ffff;
+
+                }
+            }
+        }
+        .blog-list{
+            li{
+                margin-bottom: 20px;
+                .img-thumb{
+                    position: relative;
+                    height: 62px;
+                    width: 62px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    border: 3px solid rgb(190, 15, 15);
+                    transition: all 300ms ease;
+                    &:hover{
+                        .links{
+                            opacity: 0.8;
+                        }
+                    }
+                    img{
+                        width: 100%;
+                        display: block;
+                    }
+                    .links{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background: #feb518;
+                        opacity: 0;
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        z-index: 1;
+                        span{
+                            position: absolute;
+                            color: #ffff;
+                            left: 50%;
+                            top: 50%;
+                            text-align: center;
+                            width: 30px;
+                            margin-left: -15px;
+                            margin-top: -15px;
+                            line-height: 30px;
+                            font-size: 16px;
+                            z-index: 99;
+                            i{
+                                z-index: 100;
+                            }
+                        }
+                    }
+                }
+                .news{
+                    margin-left: 15px;
+                    padding-top: 8px;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+        .open-hours{
+            li{
+                font-size: 13px;
+                margin-bottom: 22px;
+                .day{
+                    margin-right: 10px;
+                }
+                .times{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+.footer-bottom{
+    position: relative;
+    text-align: center;
+    padding: 34px 0px;
+    background-color: #111111;
+    .copy-text{
+        color: #999999;
+        font-size: 13px;
+        
+    }
+}
+.scroll-top{
+    width:40px ;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background: #691cff;
+    border-radius: 3px;
+}

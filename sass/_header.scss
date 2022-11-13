@@ -1,0 +1,152 @@
+.main-header{
+    .top-header{
+        background: #222;
+        .container{
+            padding: 0;
+        }
+        .col-lg-6{
+            padding: 0;
+        }
+        .top-header-left{
+            .social-icon{
+                a{
+                    position: relative;
+                    font-family: 'Roboto Slab',sans-serif;
+                    color: #fff;
+                    margin-right: 25px;
+                    cursor: pointer;
+                    font-size: 13px;
+                    padding: 8px 0px;
+                    display: inline-block;
+                }
+    
+            }
+            .color-icon{
+                a{
+                    &:nth-child(1){
+                    color: #4c6ef5;
+                    }
+                    &:nth-child(2){
+                    color: #22b7e4;
+                    }
+                    &:nth-child(3){
+                    color: #e24b62;
+                    }
+                    &:nth-child(4){
+                    color: #be4bdb;
+                    }
+                }
+            }
+            .contact-phone{
+                color: #fff;
+                border-left: 1px solid #434343;
+                font-size: 13px;
+                padding: 8px 0px;
+                padding-left: 22px;
+                display: inline-block;
+            }
+            
+        }
+        .top-header-right{
+            position: relative;
+            float: right;
+            .open-time{
+                font-size: 13px;
+                color: #fff;
+                border-right: 1px solid #434343;
+                padding: 8px 0px;
+                padding-right: 20px;
+            }
+            .dropdown{
+                padding: 8px 0px;
+                font-size: 13px;
+                color: #fff;
+                cursor: pointer;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-right: 1px solid #434343;
+            }
+            .shopping-cart{
+                position: relative;
+                padding: 8px 0px;
+                padding-left: 20px;
+                font-size: 14px;
+                color: #fff;
+                .count{
+                    position: absolute;
+                    top: 4px;
+                    right: -12px;
+                    font-size: 10px;
+                    height: 15px;
+                    width: 15px;
+                    line-height: 15px;
+                    text-align: center;
+                    color: #fff;
+                    background: #feb518;
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
+    .header{
+        position: relative;
+        border-bottom: 1px solid #ddd;
+        .navbar{
+            #my-nav{
+                position: relative;
+                .navbar-nav{
+                    position: absolute;
+                    right: 0;
+                    .nav-item{
+                        position: relative;
+                        display: inline-block;
+                        padding: 15px 0px;
+                        margin-left: 30px;
+                        .nav-link{
+                            display: block;
+                            color: #777;
+                            text-align: center;
+                            line-height: 30px;
+                            font-size: 14px;
+                            padding: 20px 0;
+                            position: relative;
+                            opacity: 1;
+                        }
+                        .booking{
+                            color: #000000;
+                            padding: 9px 36px;
+                            line-height: 24px;
+                            display: inline-block;
+                            background-color: #feb518;
+                            text-transform: capitalize;
+                            border: 1.5px solid transparent;
+                            margin-top: 10px;
+                            border-radius: none;
+                            transition: all 0.5s ease;
+                            &:hover{
+                                background: none;
+                                background-color: transparent;
+                                border: 1.5px solid #feb518;
+                                box-shadow: 0 0 20px gray;
+                                border-radius: none;
+                                
+                            }
+                        }
+                    }              
+                }
+            }
+        }
+    }
+   
+}
+.arctica-sticky{
+    position: fixed;
+    z-index: 1010;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fffffff2;
+    transition: all 0.3s ease;
+    box-shadow: 0px 9px 40px -13px rgba(0, 0, 0, 0.75);
+}

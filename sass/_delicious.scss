@@ -1,0 +1,88 @@
+.delicious{
+    margin-top: 100px ;
+    position: relative;
+    text-align: center;
+    .delicious-title{
+        margin-bottom: 80px;
+        h2{
+            font-size: 38px;
+            font-weight: 700;
+            color: #feb518;
+            line-height: 1.4em;
+            font-family: 'Dancing Script', cursive;
+        }
+        h4{
+            font-family: 'Roboto Slab', serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            line-height: 1.4em;
+        }
+    }
+    .delicious-items{
+        position: relative;
+        .img-box{
+            position: relative;
+            height: 288px;
+            width: 288px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-left: 30px;
+            border: 8px solid transparent;
+            .follow-social{
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                text-align: center;
+                display: block;
+                border: 8px solid transparent;
+                .inner-social{
+                    position: absolute;
+                    padding-top: 50%;
+                    text-align: center;
+                    left: 0px;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    background-color: rgba(254,181,24,0.80);
+                    opacity: 0;
+                    a{
+                        color: #fff;
+                        padding: 5px;
+                    }
+                }
+            }
+            &:hover{
+                .follow-social{
+                    .inner-social{
+                        opacity: 1;
+                        transition: all 500ms ease;
+                    }
+                }
+            }
+        }
+        .name-box{
+            margin-top: 20px;
+            h4{
+                position: relative;
+                color: #333333;
+                font-size: 20px;
+                font-family: 'Roboto Slab', serif;
+            }
+            h5{
+                position: relative;
+                color: #feb518;
+                font-size: 15px;
+                font-family: 'Roboto Slab', serif;
+            }
+        }
+    }
+}

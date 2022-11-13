@@ -1,0 +1,97 @@
+.slider{
+    position: relative;
+    .carousel{
+        position: relative;
+        .carousel-item{
+            max-height: 650px;
+        }
+        .carousel-caption{
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            h2{
+                text-align: inherit;
+                line-height: 62px;
+                border-width: 0px;
+                margin: 0px;
+                padding: 0px;
+                letter-spacing: 2px;
+                font-weight: 700;
+                font-size: 48px;
+                margin-bottom: 20px;
+            }
+            p{
+                text-align: inherit;
+                line-height: 25px;
+                border-width: 0px;
+                margin: 0px;
+                padding: 0px;
+                letter-spacing: 0px;
+                font-weight: 400;
+                font-size: 14px;
+                margin-bottom: 40px;
+            }
+            .buy-now{
+                position: relative;
+                padding: 15px 51px;
+                line-height: 26px;
+                text-transform: capitalize;
+                background: #feb518;
+                color: #333333;
+                border: 2px solid transparent;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+                text-align: inherit;
+                border-width: 2px;
+                cursor: pointer;
+                &:hover{
+                    background: transparent;
+                    color: #feb518;
+                    border: 2px solid #feb518;
+                }
+            }
+        }
+        .chevron-left{
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            display: block;
+            cursor: pointer;
+            background: rgba(201,201,201,0.75);
+            top: 50%;
+            left: 30px;
+            z-index: 100;
+            border: 1px solid rgba(255, 255, 255, 1);
+            i{
+                text-align: center;
+                margin-top: 11px;
+                margin-right: 2px;
+            }
+            &:hover{
+                background: #000;
+            }
+            
+        } 
+        .chevron-right{
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            display: block;
+            cursor: pointer;
+            background: rgba(201,201,201,0.75);
+            top: 50%;
+            right: 30px;
+            z-index: 100;
+            border: 1px solid rgba(255, 255, 255, 1);
+            i{
+                text-align: center;
+                margin-top: 11px;
+                margin-left: 2px;
+            }
+            &:hover{
+                background: #000;
+            }
+        }
+    } 
+}

@@ -1,0 +1,118 @@
+.menu-colection {
+    padding: 100px 0;
+    .menu-title {
+        text-align: center;
+        margin-bottom: 50px;
+        h2 {
+            font-size: 38px;
+            font-weight: 700;
+            color: #feb518;
+            line-height: 1.4em;
+            font-family: 'Dancing Script', cursive;
+        }
+        h4 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #333333;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            line-height: 1.4em;
+        }
+    }
+    .dish-items {
+        .single-dish {
+            position: relative;
+            transform-style: preserve-3d;
+            transition: all 0.5s ease-in-out;
+            perspective: 1000px;
+            overflow: hidden;
+            width: 350px;
+            height: 380px;
+            margin-bottom: 30px;
+            cursor: pointer;
+            &:hover {
+                transform: rotateY(180deg);
+                .back {
+                    z-index: 3;
+                }
+            }
+            .front {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                z-index: 2;
+                perspective: 1000px;
+                transform-style: preserve-3d;
+
+                .image-box {
+                    height: 100%;
+                    width: 100%;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                    .hot {
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        background: #feb518;
+                        padding: 2px 10px;
+                    }
+                }
+            }
+            .back {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                transform: rotateY(180deg);
+                background: url(../img/Menu-Pages/bg.jpg);
+                background-size: cover;
+                background-position: center center;
+                z-index: 1;
+                transform-style: preserve-3d;
+                overflow: hidden;
+                perspective: 1000px;
+                border: 5px solid #ddd;
+                .inner-box {
+                    .rated {
+                        position: absolute;
+                        top: 30%;
+                        text-align: center;
+                        width: 100%;
+                        height: 100%;
+                        span {
+                            color: #feb518;
+                            font-size: 22px;
+                            padding: 0 3px 0;
+                        }
+                    }
+                }
+                .content-box {
+                    position: absolute;
+                    padding: 20px;
+                    background: rgba(0, 0, 0, 0.5);
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    .dish-info {
+                        font-size: 17px;
+                        color: #ffffff;
+                        display: block;
+                        transition: all 0.3s ease;
+                        font-family: 'Roboto Slab', serif;
+                        .price {
+                            position: relative;
+                            margin-left: 150px;
+                        }
+                    }
+                    p {
+                        position: relative;
+                        color: #ddd;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

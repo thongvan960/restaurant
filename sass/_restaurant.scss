@@ -1,0 +1,103 @@
+.restaurant{
+    padding: 100px 0;
+    .restaurant-left{
+        .restaurant-title-main{
+            font-size: 33px;
+            font-weight: 700;
+            color: #feb518;
+            text-transform: capitalize;
+            line-height: 1.4em;
+            font-family: 'Dancing Script', cursive;
+        }
+        .restaurant-title-small{
+            font-size: 28px;
+            font-weight: 700;
+            color: #333333;
+            margin-bottom: 20px;
+            line-height: 1.4em;
+            font-family: 'Roboto Slab', serif;
+        }
+        .restaurant-text{
+            font-size: 14px;
+            color: #777777;
+            margin-bottom: 50px;
+        }
+        .read-more{
+            text-decoration: none;
+            text-align: inherit;
+            line-height: 26px;
+            border-width: 2px;
+            margin: 0px;
+            padding: 15px 51px;
+            letter-spacing: 0px;
+            font-weight: 700;
+            font-size: 14px;
+            background: #feb518;
+            color: #333;
+            &:hover{
+                background: none;
+                border: 2px solid #feb518;
+                color: #feb518 ;
+            }
+            
+        }
+    }
+    .restaurant-right{
+        .owl-carousel{
+            position: relative;
+                .owl-item{
+                    position: relative;
+                    min-height: 1px;
+                    float: left;
+                    .carousel-outer{
+                        position:relative;
+                        padding-left:70px;
+                        overflow:hidden;	
+                        .owl-stage-outer{
+                            overflow:visible;	
+                        }
+                    }
+                }
+            .item{
+                
+                img{
+                    position: relative;
+                    right: -200px;
+                    width: 100%;
+                    height: auto;
+                    display: inline-block;
+                    transform: scale(0.9,0.9);
+                    border: 7px solid rgba(255,255,255,0.4);
+                    transition:all 500ms ease;
+                }
+            }
+            .active{
+                img{
+                    left: 60px;
+                    transform: scale(1,1);
+                }
+            }
+            .owl-nav{
+                display: none;
+            }
+            .owl-dots{
+                margin-top: 25px;
+                position: absolute;
+                left: 50%;
+                .owl-dot{
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: #333;
+                    margin-right: 12px;
+                    border-radius: 100%;
+                    outline: none;
+                }
+                .active{
+                    background: #feb518;
+                }
+            }
+        }
+        
+    }
+}

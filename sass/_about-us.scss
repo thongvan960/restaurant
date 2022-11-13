@@ -1,0 +1,182 @@
+.about-slogan{
+    position: relative;
+    padding: 202px 0;
+    background-attachment: fixed;
+    background-image: url(../img/About-Pages/564.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    &:before{
+        position: absolute;
+        content:"";
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+
+    }
+    .about-slogan-title{
+        text-align: center;
+        h3{
+            position: relative;
+            color: #feb518;
+            font-size: 32px;
+            font-family: 'Dancing Script', cursive;
+        }
+        h4{
+            position: relative;
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: 700;
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+}
+
+// Restaurant
+.restaurant{
+    .restaurant-right{
+        position: relative;
+        margin-left: 50px;
+        .inner-box{
+            position: relative;
+            .restaurant-img{
+                padding: 0;
+                padding-right: 4px;
+                img{
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+// ABOUT-SLOGAN-SECOND
+.about-slogan-second{
+    position: relative;
+    padding: 222px 0;
+    background-attachment: fixed;
+    background-image: url(../img/About-Pages/666.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    &:before{
+        position: absolute;
+        content:"";
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+
+    }
+    .about-slogan-title{
+        text-align: center;
+       h2{
+            position: relative;
+            font-size: 38px;
+            color: #feb518;
+            font-family: 'Dancing Script', cursive;
+       }
+        h4{
+            position: relative;
+            color: #ffffff;
+            font-size: 36px;
+            margin-top: -10px;
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+}
+// CHEF-INFO
+.chef-info{
+    position: relative;
+    padding: 35px 0;
+    background-color: #f9f9f9;
+    background-image: url(../img/About-Pages/6.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .content-column{
+        h2{
+            font-size: 30px;
+            font-weight: 400;
+            color: #333333;
+            line-height: 1.4em;
+        }
+        h4{
+            font-size: 31px;
+            font-weight: 700;
+            color: #feb518;
+            margin-bottom: 15px;
+            line-height: 1.4em;
+            text-transform: capitalize;
+            font-family: 'Dancing Script', cursive;
+        }
+        p{
+            color: #777777;
+            font-size: 14px;
+        }
+        .social-icon-two{
+            margin-top: 30px;
+            li{
+                position: relative;
+                margin-right: 8px;
+                a{
+                    position: relative;
+                    height: 38px;
+                    width: 38px;
+                    line-height: 38px;
+                    background: #333333;
+                    border-radius: 3px;
+                    color: #ffffff;
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+//CONTACT BANNER 
+.contact-banner{
+    background-image: url(../img/About-Pages/111.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    .contact-left{
+        position: relative;
+        color: #ffffff;
+        font-size: 30px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .contact-right{
+        position: relative;
+        text-align: right;
+        .contact-us{
+            position: relative;
+            padding: 15px 51px;
+            line-height: 26px;
+            text-transform: capitalize;
+            background: #feb518;
+            color: #333333;
+            border: 2px solid transparent;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: none;
+            text-align: inherit;
+            border-width: 2px;
+            cursor: pointer;
+            &:hover{
+                background: transparent;
+                color: #feb518;
+                border: 2px solid #feb518;
+            }
+        }
+    }
+    
+}
